@@ -1,0 +1,16 @@
+use 5.14.2;
+use utf8;
+use strict;
+use warnings;
+say "\x{263A}";
+my $all = 'ab阳光的雷咩咩c';
+say $all;
+$all =~ /[a-zA-Z]+/;
+my $en = $&;
+say "\$en = $en";
+#$all =~ /[\u4e00-\u9fa5]+/;
+$all =~ /[^a-zA-Z]+/;
+my $ch = $&;
+say "\$ch = $ch";
+say 'end';
+<>;
