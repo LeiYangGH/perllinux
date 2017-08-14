@@ -1,0 +1,9 @@
+Shanghai,China
+Beijing,China
+Saint Petersberg,Russia
+New York,USA
+Guangzhou,China
+California,USA
+Red Square,Russia
+Shenzhen,China
+Washington,USA

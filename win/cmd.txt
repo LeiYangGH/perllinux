@@ -1,0 +1,17 @@
+ppm> install OLE::Storage_Lite
+ppm> install Spreadsheet::ParseExcel
+ppm> install Spreadsheet::WriteExcel
+
+'urllist' => [q[http://mirrors.163.com/cpan/]],
+
+
+
+o conf urllist
+
+
+o conf urllist push http://mirrors.163.com/cpan/
+
+0 [http://mirrors.163.com/cpan/]
+        1 [http://www.cpan.org/]
+        2 [http://mirrors.zju.edu.cn/CPAN/]
+        3 [ftp://mirrors.ustc.edu.cn/CPAN/]
